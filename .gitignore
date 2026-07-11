@@ -103,11 +103,11 @@ htmlcov/
 # ==========================================
 
 # MaxMind databases (large and licensed)
-data/*.mmdb
+backend/data/*.mmdb
 
 # If you later download GeoLite archives
-data/*.tar.gz
-data/*.zip
+backend/data/*.tar.gz
+backend/data/*.zip
 
 # Trace outputs
 *.trace
