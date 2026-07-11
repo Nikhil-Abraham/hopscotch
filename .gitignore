@@ -113,4 +113,12 @@ backend/data/*.zip
 *.trace
 *.jsonl
 
-./backend/data
+# MaxMind databases
+backend/data/*.mmdb
+
+# Downloaded archives
+backend/data/*.tar.gz
+backend/data/*.zip
+
+# Keep the folder itself
+!backend/data/.gitkeep
