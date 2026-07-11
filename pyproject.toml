@@ -1,0 +1,17 @@
+[project]
+name = "hopscotch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dnspython>=2.8.0",
+    "fastapi>=0.139.0",
+    "scapy>=2.7.0",
+    "uvicorn>=0.51.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "backend",
+]
